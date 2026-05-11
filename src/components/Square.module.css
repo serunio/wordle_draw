@@ -1,0 +1,15 @@
+.button {
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    color: white;
+    border: none;
+    font-size: 30px;
+    &.green {
+        background-color: yellowgreen;
+    }
+    &.yellow {
+        background-color: gold;
+    }
+}
+

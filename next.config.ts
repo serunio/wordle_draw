@@ -5,4 +5,10 @@ const nextConfig: NextConfig = {
   reactCompiler: true,
 };
 
+// next.config.js
+module.exports = {
+  allowedDevOrigins: ['25.48.234.225'],
+}
+
+
 export default nextConfig;
